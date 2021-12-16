@@ -10,8 +10,8 @@ const routes = require('./routes/index')();
 app.use(express.json({ limit: "30mb", extended: true }));
 
 // MongoDB 
-//const mongoURL = "mongodb+srv://lum:lum@cluster0.xgpts.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const mongoURL = "mongodb+srv://cstu:cstu@cluster0.wrqrh.mongodb.net/us_army_db?retryWrites=true&w=majority";
+//const mongoURL = "mongodb+srv://lum:*************m@cluster0.xgpts.mongodb.net/myFirstData?retryWrites=true&w=majority";
+const mongoURL = "mongodb+srv://cstu:**************@cluster0.wrqrh.mongodb.net/us_army?retryWrites=true&w=majority";
 const http = require('http');
 
 // Connect to MongoDB
