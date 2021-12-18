@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Formik, Field, Form } from 'formik';
-import Yup from 'yup';
+import * as Yup from 'yup';
 import { updateSoldierEntry, newSoldierEntry } from '../../actions/index';
 import FileBase64 from 'react-file-base64';
 
